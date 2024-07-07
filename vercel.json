@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://hed.chenfengwl.com.cdn.cloudflare.net/$1",
+      "headers": {"Host": "chenfengcdn.com"}
+    }
+  ]
+}
